@@ -11,4 +11,4 @@ This project implements backpropagation over a dynamically built computational g
 * A custom neural network module (`Neuron`, `Layer`, `MLP`) trained using standard gradient descent.
 
 ### Acknowledgments
-This project was built by following Andrej Karpathy's exceptional "Neural Networks: Zero to Hero" series. Rebuilding this autograd engine was an active exercise to deeply internalize the calculus, chain rule mechanics, and topological sorting algorithms that power modern deep learning.
+This project was built by following Andrej Karpathy's "Neural Networks: Zero to Hero" series. Rebuilding this autograd engine was an active exercise to deeply internalize the calculus, chain rule mechanics, and topological sorting algorithms that power modern deep learning.
