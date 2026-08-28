@@ -1,14 +1,12 @@
-# Micrograd from Scratch
+# royce-ai: Deep Learning & AI 
 
-A custom, scalar-level autograd engine and neural network library built from scratch in python
+This repository serves as a continuous, evolving workspace for my journey into artificial intelligence. It tracks ongoing research, from-scratch project implementations, starting from first principles and scaling up to more complex architectures over time.
 
-This project implements backpropagation over a dynamically built computational graph to train a simple Multi-Layer Perceptron (MLP). It was built to develop a first-principles understanding of neural network calculus and gradient descent.
+**Repository Structure**
 
-**Core Features:**
-* Custom `Value` object class with engineered dunder methods (`__add__`, `__mul__`, etc.) to track mathematical operations.
-* Topological sorting algorithm to execute the backward pass and apply the chain rule automatically.
-* Graphviz integration to visually render the forward/backward computational trees.
-* A custom neural network module (`Neuron`, `Layer`, `MLP`) trained using standard gradient descent.
+*   **/deeplearning**: The core directory housing implementations of neural networks, architectures, and algorithms.
+*   **/learning-log**: A dedicated space for research notes, error tracking, and deep dives into specific mathematical or conceptual areas I am currently breaking down. 
 
-### Acknowledgments
-This project was built by following Andrej Karpathy's "Neural Networks: Zero to Hero" series. Rebuilding this autograd engine was an active exercise to deeply internalize the calculus, chain rule mechanics, and topological sorting algorithms that power modern deep learning.
+**Core Focus Areas**
+*   Rebuilding frameworks and architectures from scratch to eliminate black boxes.
+*   Documenting roadblocks and conceptual breakthroughs in the learning log.
